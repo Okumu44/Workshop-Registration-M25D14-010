@@ -1,0 +1,27 @@
+Workshop Registration Lab — Test Record
+
+Run these tests in the browser and record the actual result. Do not mark a test Pass until you have tried it.
+
+Test case                                      Expected result             Result
+Required fields left empty                     Blocked with feedback       ____
+Invalid email (e.g. amina)                     Blocked                     ____
+Telephone entered without required format     Blocked                     ____
+Portfolio left blank                           Accepted                    ____
+Portfolio https://example.com                 Accepted                    ____
+Portfolio not-a-url                            Blocked                     ____
+Yesterday's date                               Blocked                     ____
+Today's date                                   Accepted                    ____
+Seats set to 0                                 Blocked                     ____
+Seats set to 5                                 Blocked                     ____
+Seats set to 1.5                               Blocked                     ____
+One seat                                        Individual booking          ____
+Four seats                                      Group booking               ____
+Password shorter than 10 characters            Blocked                     ____
+Passwords do not match                          Blocked                     ____
+Corrected matching passwords                   Accepted if other fields valid ____
+Agreement left unchecked                       Blocked                     ____
+All fields valid                                Green preview; no password shown ____
+390px-wide screen                               One column; no sideways scroll ____
+Keyboard Tab navigation                        Focus outline visible       ____
+
+Notes: Use invented details and a practice password. Record Pass or Fail after testing.
